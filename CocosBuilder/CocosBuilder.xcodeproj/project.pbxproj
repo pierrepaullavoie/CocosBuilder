@@ -119,6 +119,7 @@
 		E312973516CC677400A09155 /* SequencerPopoverSound.xib in Resources */ = {isa = PBXBuildFile; fileRef = E312973416CC677400A09155 /* SequencerPopoverSound.xib */; };
 		E312973816CC67CB00A09155 /* SequencerPopoverSound.m in Sources */ = {isa = PBXBuildFile; fileRef = E312973716CC67CA00A09155 /* SequencerPopoverSound.m */; };
 		E312EDC616AF71FE000778C8 /* CCBReaderInternalRenamedProps.plist in Resources */ = {isa = PBXBuildFile; fileRef = E312EDC516AF71FE000778C8 /* CCBReaderInternalRenamedProps.plist */; };
+		E318CB3916D83F3B00348E0D /* InspectorPopoverFloatXY.xib in Resources */ = {isa = PBXBuildFile; fileRef = E318CB3816D83F3B00348E0D /* InspectorPopoverFloatXY.xib */; };
 		E3214C4115D3BF4D002413A7 /* CustomPropSettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3214C4015D3BF4D002413A7 /* CustomPropSettingsWindow.xib */; };
 		E3214C4415D3C29D002413A7 /* CustomPropSettingsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E3214C4315D3C29D002413A7 /* CustomPropSettingsWindow.m */; };
 		E3214C4715D3C3AF002413A7 /* CustomPropSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E3214C4615D3C3AF002413A7 /* CustomPropSetting.m */; };
@@ -141,6 +142,7 @@
 		E32BBCB11561361200C58395 /* HashValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E32BBCB01561361200C58395 /* HashValue.m */; };
 		E32D8CC514EC257000F4BD5E /* InspectorCodeConnections.xib in Resources */ = {isa = PBXBuildFile; fileRef = E32D8CC414EC257000F4BD5E /* InspectorCodeConnections.xib */; };
 		E32D8CC814EC25D800F4BD5E /* InspectorCodeConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D8CC714EC25D800F4BD5E /* InspectorCodeConnections.m */; };
+		E32FA2F816D5781600254653 /* seq-row-channel-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E32FA2F716D5781600254653 /* seq-row-channel-bg.png */; };
 		E334069715517225000FBD0B /* InspectorFloatScale.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334069615517225000FBD0B /* InspectorFloatScale.xib */; };
 		E334069B1551725F000FBD0B /* InspectorFloatScale.m in Sources */ = {isa = PBXBuildFile; fileRef = E334069A1551725F000FBD0B /* InspectorFloatScale.m */; };
 		E334740B169C5402000737CC /* CCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E33473EF169C5402000737CC /* CCControl.m */; };
@@ -437,6 +439,8 @@
 		E3B4223214E5CF97004547D6 /* NodeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B4223114E5CF97004547D6 /* NodeInfo.m */; };
 		E3B4223414E5E68B004547D6 /* InspectorSeparator.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B4223314E5E68A004547D6 /* InspectorSeparator.xib */; };
 		E3B4223714E5E6AD004547D6 /* InspectorSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B4223614E5E6AC004547D6 /* InspectorSeparator.m */; };
+		E3B5EE8916D6E0AA00C07990 /* InspectorFloatXY.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B5EE8716D6E0A900C07990 /* InspectorFloatXY.m */; };
+		E3B5EE8A16D6E0AA00C07990 /* InspectorFloatXY.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B5EE8816D6E0AA00C07990 /* InspectorFloatXY.xib */; };
 		E3B7AEC614E3193500DFD402 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
 		E3B7AECC14E3193500DFD402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3B7AECA14E3193500DFD402 /* InfoPlist.strings */; };
 		E3B7AED514E31E6C00DFD402 /* CCNode.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = E3B7AEC514E3193500DFD402 /* CCNode.ccbPlugNode */; };
@@ -967,6 +971,7 @@
 		E312973616CC67CA00A09155 /* SequencerPopoverSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequencerPopoverSound.h; sourceTree = "<group>"; };
 		E312973716CC67CA00A09155 /* SequencerPopoverSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequencerPopoverSound.m; sourceTree = "<group>"; };
 		E312EDC516AF71FE000778C8 /* CCBReaderInternalRenamedProps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBReaderInternalRenamedProps.plist; sourceTree = "<group>"; };
+		E318CB3816D83F3B00348E0D /* InspectorPopoverFloatXY.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorPopoverFloatXY.xib; sourceTree = "<group>"; };
 		E3214C4015D3BF4D002413A7 /* CustomPropSettingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPropSettingsWindow.xib; sourceTree = "<group>"; };
 		E3214C4215D3C29D002413A7 /* CustomPropSettingsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPropSettingsWindow.h; sourceTree = "<group>"; };
 		E3214C4315D3C29D002413A7 /* CustomPropSettingsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPropSettingsWindow.m; sourceTree = "<group>"; };
@@ -1000,6 +1005,7 @@
 		E32D8CC414EC257000F4BD5E /* InspectorCodeConnections.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorCodeConnections.xib; sourceTree = "<group>"; };
 		E32D8CC614EC25D800F4BD5E /* InspectorCodeConnections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorCodeConnections.h; sourceTree = "<group>"; };
 		E32D8CC714EC25D800F4BD5E /* InspectorCodeConnections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorCodeConnections.m; sourceTree = "<group>"; };
+		E32FA2F716D5781600254653 /* seq-row-channel-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-row-channel-bg.png"; sourceTree = "<group>"; };
 		E334069615517225000FBD0B /* InspectorFloatScale.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorFloatScale.xib; sourceTree = "<group>"; };
 		E33406991551725F000FBD0B /* InspectorFloatScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorFloatScale.h; sourceTree = "<group>"; };
 		E334069A1551725F000FBD0B /* InspectorFloatScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorFloatScale.m; sourceTree = "<group>"; };
@@ -1199,8 +1205,8 @@
 		E36A271B152263B4004986A8 /* CCActionGrid3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionGrid3D.m; sourceTree = "<group>"; };
 		E36A271C152263B4004986A8 /* CCActionInstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionInstant.h; sourceTree = "<group>"; };
 		E36A271D152263B4004986A8 /* CCActionInstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionInstant.m; sourceTree = "<group>"; };
-		E36A271E152263B4004986A8 /* CCActionInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionInterval.h; sourceTree = "<group>"; };
-		E36A271F152263B4004986A8 /* CCActionInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionInterval.m; sourceTree = "<group>"; };
+		E36A271E152263B4004986A8 /* CCActionInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionInterval.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E36A271F152263B4004986A8 /* CCActionInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionInterval.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E36A2720152263B4004986A8 /* CCActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionManager.h; sourceTree = "<group>"; };
 		E36A2721152263B4004986A8 /* CCActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionManager.m; sourceTree = "<group>"; };
 		E36A2722152263B4004986A8 /* CCActionPageTurn3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionPageTurn3D.h; sourceTree = "<group>"; };
@@ -1247,8 +1253,8 @@
 		E36A274B152263B4004986A8 /* ccMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccMacros.h; sourceTree = "<group>"; };
 		E36A274C152263B4004986A8 /* CCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenu.h; sourceTree = "<group>"; };
 		E36A274D152263B4004986A8 /* CCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenu.m; sourceTree = "<group>"; };
-		E36A274E152263B4004986A8 /* CCMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenuItem.h; sourceTree = "<group>"; };
-		E36A274F152263B4004986A8 /* CCMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenuItem.m; sourceTree = "<group>"; };
+		E36A274E152263B4004986A8 /* CCMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenuItem.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E36A274F152263B4004986A8 /* CCMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenuItem.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E36A2750152263B4004986A8 /* CCMotionStreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMotionStreak.h; sourceTree = "<group>"; };
 		E36A2751152263B4004986A8 /* CCMotionStreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMotionStreak.m; sourceTree = "<group>"; };
 		E36A2752152263B4004986A8 /* CCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNode.h; sourceTree = "<group>"; };
@@ -1517,6 +1523,9 @@
 		E3B4223314E5E68A004547D6 /* InspectorSeparator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorSeparator.xib; sourceTree = "<group>"; };
 		E3B4223514E5E6AC004547D6 /* InspectorSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorSeparator.h; sourceTree = "<group>"; };
 		E3B4223614E5E6AC004547D6 /* InspectorSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorSeparator.m; sourceTree = "<group>"; };
+		E3B5EE8616D6E0A900C07990 /* InspectorFloatXY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorFloatXY.h; sourceTree = "<group>"; };
+		E3B5EE8716D6E0A900C07990 /* InspectorFloatXY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorFloatXY.m; sourceTree = "<group>"; };
+		E3B5EE8816D6E0AA00C07990 /* InspectorFloatXY.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorFloatXY.xib; sourceTree = "<group>"; };
 		E3B7AEC514E3193500DFD402 /* CCNode.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCNode.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B7AEC914E3193500DFD402 /* CCNode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCNode-Info.plist"; sourceTree = "<group>"; };
 		E3B7AECB14E3193500DFD402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -2173,6 +2182,7 @@
 				E39B639E1587E56D009BDE38 /* seq-row-0-bg.png */,
 				E39B639F1587E56D009BDE38 /* seq-row-1-bg.png */,
 				E39B63A01587E56D009BDE38 /* seq-row-n-bg.png */,
+				E32FA2F716D5781600254653 /* seq-row-channel-bg.png */,
 				E36ECD6115869779003C177E /* seq-btn-back.png */,
 				E36ECD6215869779003C177E /* seq-keyframe-sel.png */,
 				E36ECD6315869779003C177E /* seq-keyframe.png */,
@@ -3422,7 +3432,11 @@
 				E35DBBFA14F3EE210070A6E4 /* InspectorFloat.xib */,
 				E35DBBFC14F3EE400070A6E4 /* InspectorFloat.h */,
 				E35DBBFD14F3EE400070A6E4 /* InspectorFloat.m */,
+				E3B5EE8616D6E0A900C07990 /* InspectorFloatXY.h */,
+				E3B5EE8716D6E0A900C07990 /* InspectorFloatXY.m */,
+				E3B5EE8816D6E0AA00C07990 /* InspectorFloatXY.xib */,
 				E334069615517225000FBD0B /* InspectorFloatScale.xib */,
+				E318CB3816D83F3B00348E0D /* InspectorPopoverFloatXY.xib */,
 				E33406991551725F000FBD0B /* InspectorFloatScale.h */,
 				E334069A1551725F000FBD0B /* InspectorFloatScale.m */,
 				E325F64414F531F500D29BCF /* InspectorFloatVar.xib */,
@@ -4342,6 +4356,9 @@
 				E312972E16CC33B200A09155 /* SequencerPopoverBlock.xib in Resources */,
 				E312973516CC677400A09155 /* SequencerPopoverSound.xib in Resources */,
 				E3A4747116D4389D00DB0D61 /* README.md in Resources */,
+				E32FA2F816D5781600254653 /* seq-row-channel-bg.png in Resources */,
+				E3B5EE8A16D6E0AA00C07990 /* InspectorFloatXY.xib in Resources */,
+				E318CB3916D83F3B00348E0D /* InspectorPopoverFloatXY.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4517,7 +4534,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./../scripts/CopyBuiltProduct.sh \"$CONFIGURATION_BUILD_DIR/\" \"$SRCROOT/../build/\" \"$PRODUCT_NAME.app\" \"1\"";
+			shellScript = "./../scripts/CopyBuiltProduct.sh $CONFIGURATION_BUILD_DIR/ $SRCROOT/../build/ $PRODUCT_NAME.app 1";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4803,6 +4820,7 @@
 				E3A4746F16D4389D00DB0D61 /* CDXPropertyModifierAction.m in Sources */,
 				E3A4747016D4389D00DB0D61 /* CocosDenshion.m in Sources */,
 				E3A4747216D4389D00DB0D61 /* SimpleAudioEngine.m in Sources */,
+				E3B5EE8916D6E0AA00C07990 /* InspectorFloatXY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

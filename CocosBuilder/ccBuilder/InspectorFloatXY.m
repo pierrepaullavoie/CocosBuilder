@@ -22,40 +22,52 @@
  * THE SOFTWARE.
  */
 
-#import <AppKit/AppKit.h>
-#import "cocos2d.h"
+#import "InspectorFloatXY.h"
+#import "CCBGlobals.h"
+#import "CocosBuilderAppDelegate.h"
+#import "PositionPropertySetter.h"
+#import "CCNode+NodeInfo.h"
 
-@class SequencerChannel;
+@implementation InspectorFloatXY
 
-@interface SequencerCell : NSCell
+- (void) updateAnimateableX:(float)x Y:(float)y
 {
-    CCNode* node;
-    SequencerChannel* channel;
-    
-    BOOL imagesLoaded;
-    
-    NSImage* imgKeyframe;
-    NSImage* imgKeyframeSel;
-    
-    NSImage* imgRowBg0;
-    NSImage* imgRowBg1;
-    NSImage* imgRowBgN;
-    NSImage* imgRowBgChannel;
-    
-    NSImage* imgInterpol;
-    NSImage* imgEaseIn;
-    NSImage* imgEaseOut;
-    
-    NSImage* imgInterpolVis;
-    NSImage* imgKeyframeL;
-    NSImage* imgKeyframeR;
-    NSImage* imgKeyframeLSel;
-    NSImage* imgKeyframeRSel;
-    
-    NSImage* imgKeyframeHint;
+    [self updateAnimateablePropertyValue:
+     [NSArray arrayWithObjects:
+      [NSNumber numberWithFloat:x],
+      [NSNumber numberWithFloat:y],
+      nil]];
 }
 
-@property (nonatomic,assign) CCNode* node;
-@property (nonatomic,assign) SequencerChannel* channel;
+- (void) setScaleX:(float)x
+{
+    [self setPropertyForSelectionX:[NSNumber numberWithFloat:x]];
+    [self updateAnimateableX:x Y:self.scaleY];
+}
+
+- (float) scaleX
+{
+    return [[self propertyForSelectionX] floatValue];
+}
+
+- (void) setScaleY:(float)y
+{
+    [self setPropertyForSelectionY:[NSNumber numberWithFloat:y]];
+    [self updateAnimateableX:self.scaleX Y:y];
+}
+
+- (float) scaleY
+{
+    return [[self propertyForSelectionY] floatValue];
+}
+
+- (void) refresh
+{
+    [self willChangeValueForKey:@"scaleX"];
+    [self didChangeValueForKey:@"scaleX"];
+    
+    [self willChangeValueForKey:@"scaleY"];
+    [self didChangeValueForKey:@"scaleY"];
+}
 
 @end

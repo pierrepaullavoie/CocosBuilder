@@ -22,40 +22,11 @@
  * THE SOFTWARE.
  */
 
-#import <AppKit/AppKit.h>
-#import "cocos2d.h"
+#import "InspectorValue.h"
 
-@class SequencerChannel;
+@interface InspectorFloatXY : InspectorValue
 
-@interface SequencerCell : NSCell
-{
-    CCNode* node;
-    SequencerChannel* channel;
-    
-    BOOL imagesLoaded;
-    
-    NSImage* imgKeyframe;
-    NSImage* imgKeyframeSel;
-    
-    NSImage* imgRowBg0;
-    NSImage* imgRowBg1;
-    NSImage* imgRowBgN;
-    NSImage* imgRowBgChannel;
-    
-    NSImage* imgInterpol;
-    NSImage* imgEaseIn;
-    NSImage* imgEaseOut;
-    
-    NSImage* imgInterpolVis;
-    NSImage* imgKeyframeL;
-    NSImage* imgKeyframeR;
-    NSImage* imgKeyframeLSel;
-    NSImage* imgKeyframeRSel;
-    
-    NSImage* imgKeyframeHint;
-}
-
-@property (nonatomic,assign) CCNode* node;
-@property (nonatomic,assign) SequencerChannel* channel;
+@property (nonatomic, assign) float scaleX;
+@property (nonatomic, assign) float scaleY;
 
 @end

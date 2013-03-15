@@ -64,6 +64,7 @@
     [propTypes addObject:@"String"];
     [propTypes addObject:@"BlockCCControl"];
     [propTypes addObject:@"FloatScale"];
+    [propTypes addObject:@"FloatXY"];
 }
 
 - (id) init
@@ -312,8 +313,9 @@
         [self writeInt:sizeType withSign:NO];
     }
     else if ([type isEqualToString:@"Point"]
-            || [type isEqualToString:@"PointLock"]
-            || [type isEqualToString:@"FloatVar"])
+             || [type isEqualToString:@"PointLock"]
+             || [type isEqualToString:@"FloatVar"]
+             || [type isEqualToString:@"FloatXY"])
     {
         float a = [[prop objectAtIndex:0] floatValue];
         float b = [[prop objectAtIndex:1] floatValue];
@@ -797,7 +799,8 @@
         [self writeFloat:[value floatValue]];
     }
     else if ([type isEqualToString:@"ScaleLock"]
-             || [type isEqualToString:@"Position"])
+             || [type isEqualToString:@"Position"]
+             || [type isEqualToString:@"FloatXY"])
     {
         float a = [[value objectAtIndex:0] floatValue];
         float b = [[value objectAtIndex:1] floatValue];
@@ -888,6 +891,7 @@
             else if (kfType == kCCBKeyframeTypeScaleLock) propType = @"ScaleLock";
             else if (kfType == kCCBKeyframeTypeSpriteFrame) propType = @"SpriteFrame";
             else if (kfType == kCCBKeyframeTypePosition) propType = @"Position";
+            else if (kfType == kCCBKeyframeTypeFloatXY) propType = @"FloatXY";
             
             NSAssert(propType, @"Unknown animated property type");
             

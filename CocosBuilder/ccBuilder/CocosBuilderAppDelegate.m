@@ -683,6 +683,12 @@ static BOOL hideAllToNextSeparator;
             if ([name isEqualToString:@"visible"]) animated = YES;
             if ([self.selectedNode shouldDisableProperty:name]) readOnly = YES;
             
+            // Handle Flash skews
+            BOOL usesFlashSkew = [self.selectedNode usesFlashSkew];
+            if (usesFlashSkew && [name isEqualToString:@"rotation"]) continue;
+            if (!usesFlashSkew && [name isEqualToString:@"rotationX"]) continue;
+            if (!usesFlashSkew && [name isEqualToString:@"rotationY"]) continue;
+            
             // TODO: Handle read only for animated properties
             if ([self isDisabledProperty:name animatable:animated])
             {
